@@ -83,19 +83,27 @@
   {:testnet {"mailserver-a" {:id      "mailserver-a"
                              :name    "Status mailserver A"
                              :password inbox-password
-                             :address "enode://1da276e34126e93babf24ec88aac1a7602b4cbb2e11b0961d0ab5e989ca9c261aa7f7c1c85f15550a5f1e5a5ca2305b53b9280cf5894d5ecf7d257b173136d40@167.99.209.61:30504"}
+                             :address "enode://c42f368a23fa98ee546fd247220759062323249ef657d26d357a777443aec04db1b29a3a22ef3e7c548e18493ddaf51a31b0aed6079bd6ebe5ae838fcfaf3a49@206.189.108.78:30504"}
              "mailserver-b" {:id      "mailserver-b"
                              :name    "Status mailserver B"
                              :password inbox-password
-                             :address "enode://07ac64fe0e9b2d4ecbfe0ccaeab3d8d95fa8858754f511104bb403b19255d7bf47a8416bdd0df01f6720ff82164451b7a028c93d15ddd37b7e8382d74e91ebc2@167.99.209.72:30504"}}
+                             :address "enode://7de99e4cb1b3523bd26ca212369540646607c721ad4f3e5c821ed9148150ce6ce2e72631723002210fac1fd52dfa8bbdf3555e05379af79515e1179da37cc3db@35.188.19.210:30504"}
+             "mailserver-c" {:id      "mailserver-c"
+                             :name    "Status mailserver C"
+                             :password inbox-password
+                             :address "enode://505935d249a6ff85698dde5566d041d53ffcfea5a55d740ef224524d69b7a53058b99a5276ac913d797e0640e644d0f0f0a1a30f8f162d2d7f2abb3064c869b2@185.156.42.129:30504"}}
    :mainnet {"mailserver-a" {:id      "mailserver-a"
                              :name    "Status mailserver A"
                              :password inbox-password
-                             :address "enode://1da276e34126e93babf24ec88aac1a7602b4cbb2e11b0961d0ab5e989ca9c261aa7f7c1c85f15550a5f1e5a5ca2305b53b9280cf5894d5ecf7d257b173136d40@167.99.209.61:30504"}
+                             :address "enode://c42f368a23fa98ee546fd247220759062323249ef657d26d357a777443aec04db1b29a3a22ef3e7c548e18493ddaf51a31b0aed6079bd6ebe5ae838fcfaf3a49@206.189.108.78:30504"}
              "mailserver-b" {:id      "mailserver-b"
                              :name    "Status mailserver B"
                              :password inbox-password
-                             :address "enode://07ac64fe0e9b2d4ecbfe0ccaeab3d8d95fa8858754f511104bb403b19255d7bf47a8416bdd0df01f6720ff82164451b7a028c93d15ddd37b7e8382d74e91ebc2@167.99.209.72:30504"}}
+                             :address "enode://7de99e4cb1b3523bd26ca212369540646607c721ad4f3e5c821ed9148150ce6ce2e72631723002210fac1fd52dfa8bbdf3555e05379af79515e1179da37cc3db@35.188.19.210:30504"}
+             "mailserver-c" {:id      "mailserver-c"
+                             :name    "Status mailserver C"
+                             :password inbox-password
+                             :address "enode://505935d249a6ff85698dde5566d041d53ffcfea5a55d740ef224524d69b7a53058b99a5276ac913d797e0640e644d0f0f0a1a30f8f162d2d7f2abb3064c869b2@185.156.42.129:30504"}}
    :rinkeby {"mailserver-a" {:id     "mailserver-a"
                              :name   "Status mailserver A"
                              :password inbox-password
